@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import Top from "./components/Top";
 import MyNav from "./components/MyNav";
 import About from "./components/AboutSec";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <MyNav />
       <Top />
       <About />
+      <Skills />
     </>
   );
 }

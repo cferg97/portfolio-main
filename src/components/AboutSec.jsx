@@ -6,7 +6,7 @@ const About = () => {
     <Container fluid className="about-section" id="about">
       <Row className="justify-content-center" style={{ height: "100%" }}>
         <Col className="justify-content-center" style={{ height: "100%" }}>
-          <Container className="text-center mt-2">
+          <Container className="text-center mt-3">
             <h1>About</h1>
             <hr />
             <Row style={{ height: "100%" }}>
@@ -43,9 +43,9 @@ const About = () => {
                     Epicode!
                   </a>
                 </p>
-                
+
                 <p>
-                  In my free time I dabble in digital art and graphic design. I have been on the organising committee of several conventions within the UK, providing artwork and assisting with tasks on the day. 
+                  In my free time I dabble in digital art and graphic design. I have been on the organising committee of several conventions within the UK, providing artwork and assisting with tasks during the event. 
                 </p>
               </Col>
             </Row>

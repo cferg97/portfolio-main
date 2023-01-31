@@ -62,7 +62,7 @@ const Top = () => {
             >
               <BsLinkedin className="linked-icon" />
             </a>
-            <a target="_blank" href="mailto:c.ferguson1997@gmail.com">
+            <a target="_blank" href="mailto:main@catrionaferguson.co.uk">
               <MdAlternateEmail className="email-icon" />
             </a>
           </Container>

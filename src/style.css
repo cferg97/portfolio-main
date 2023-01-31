@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding: 4rem;
 }
 
 
@@ -31,6 +32,7 @@ a {
     overflow-x: hidden;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 .git-icon,
 .linked-icon,
@@ -75,6 +77,14 @@ a {
     color: rgb(219, 219, 219);
 }
 
+
+.skills-section {
+    background-color: rgb(29, 29, 29);
+    width: 100vw;
+    height: 50vh;
+    color: rgb(219, 219, 219);
+}
+
 .custom-link {
     color: transparent;
     background-color: red;
@@ -100,4 +110,15 @@ a {
 
 .image-me:hover {
     filter: none;
+}
+
+.skill-icon {
+    width: 6rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 1rem;
+}
+
+.skill-icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }

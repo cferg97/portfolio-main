@@ -16,7 +16,9 @@ const MyNav = () => {
         <Nav>
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link disabled>|</Nav.Link>
-          <Nav.Link href="#link">Skills</Nav.Link>
+          <Nav.Link href="#skills">Skills</Nav.Link>
+          <Nav.Link disabled>|</Nav.Link>
+          <Nav.Link href="#project">Projects</Nav.Link>
           <Nav.Link disabled>|</Nav.Link>
           <Nav.Link href="#link">Experience</Nav.Link>
         </Nav>
