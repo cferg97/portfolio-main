@@ -10,10 +10,10 @@ const About = () => {
             <h1>About</h1>
             <hr />
             <Row style={{ height: "100%" }}>
-              <Col
+              {/* <Col
                 md={4}
                 style={{ height: "100%" }}
-                className="justify-content-center"
+                className="justify-content-center mt-auto mb-auto"
               >
                 <Container>
                   <Image
@@ -27,14 +27,14 @@ const About = () => {
                     alt="itsa me"
                   />
                 </Container>
-              </Col>
-              <Col className="p-4">
+              </Col> */}
+              <Col className="p-4 mt-auto mb-auto" style={{height: "100%"}}>
                 <p>
                   Full Stack Web Developer hailing from Scotland. Can currently
                   be found somewhere near Cambridge, UK.
-                  <hr />
+                  <br />
                   Graduated with BEng Computer Systems & Networks, in the
-                  process of finishing a 6 month long bootcamp with{" "}
+                  process of finishing a 6 month long full stack web development bootcamp with{" "}
                   <a
                     target="_blank"
                     className="custom-link"
@@ -42,6 +42,10 @@ const About = () => {
                   >
                     Epicode!
                   </a>
+
+                </p>
+                <p>
+                  Outside of coding, in my free time I dabble in digital art and graphic design, as well as 
                 </p>
               </Col>
             </Row>

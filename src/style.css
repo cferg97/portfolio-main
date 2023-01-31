@@ -28,6 +28,7 @@ a {
     background-blend-mode: multiply;
     background-image: url("https://res.cloudinary.com/cfcloudstorage/image/upload/v1675110340/media/T_srjaox.png"), url(https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
     overflow-x: hidden;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.432);
 }
 
 .git-icon,
@@ -86,6 +87,7 @@ a {
 
 .custom-link:hover {
     color: transparent;
+    font-size: 105%;
     text-shadow: 0 0 10px rgba(255, 0, 221, 0.4);
 }
 
