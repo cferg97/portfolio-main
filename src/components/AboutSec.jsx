@@ -42,10 +42,10 @@ const About = () => {
                   >
                     Epicode!
                   </a>
-
                 </p>
+                
                 <p>
-                  Outside of coding, in my free time I dabble in digital art and graphic design, as well as 
+                  In my free time I dabble in digital art and graphic design. I have been on the organising committee of several conventions within the UK, providing artwork and assisting with tasks on the day. 
                 </p>
               </Col>
             </Row>
