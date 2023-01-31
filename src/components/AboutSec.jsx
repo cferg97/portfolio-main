@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 const About = () => {
@@ -16,19 +17,31 @@ const About = () => {
               >
                 <Container>
                   <Image
-                    style={{ borderRadius: "100%", height: "15rem", marginRight: "1rem" }}
-                    
+                    className="image-me"
+                    style={{
+                      borderRadius: "100%",
+                      height: "15rem",
+                      marginRight: "1rem",
+                    }}
                     src="https://res.cloudinary.com/cfcloudstorage/image/upload/v1675156396/media/avatar_uvtjvc.jpg"
-                    alt=""
+                    alt="itsa me"
                   />
                 </Container>
               </Col>
-              <Col className="text-center p-4">
+              <Col className="p-4">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laudantium deleniti laborum debitis magni accusamus mollitia
-                  ea earum beatae rem! Obcaecati, explicabo. Nesciunt totam,
-                  nobis eius quaerat enim soluta incidunt libero.
+                  Full Stack Web Developer hailing from Scotland. Can currently
+                  be found somewhere near Cambridge, UK.
+                  <hr />
+                  Graduated with BEng Computer Systems & Networks, in the
+                  process of finishing a 6 month long bootcamp with{" "}
+                  <a
+                    target="_blank"
+                    className="custom-link"
+                    href="https://epicode.com/en/"
+                  >
+                    Epicode!
+                  </a>
                 </p>
               </Col>
             </Row>
