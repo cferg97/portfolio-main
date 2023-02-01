@@ -20,6 +20,7 @@ a {
 .custom-nav {
     background: linear-gradient(to bottom, rgba(207, 207, 207, 0.185), rgba(255, 255, 255, 0));
     backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.3);
 }
 
 .top-custom {
@@ -74,21 +75,20 @@ a {
 
 .about-section {
     width: 100vw;
-    height: 50vh;
+    /* height: 50vh; */
     color: rgb(219, 219, 219);
-
 }
 
 .skills-section {
     background-color: rgb(29, 29, 29);
     width: 100vw;
-    height: 50vh;
+    /* height: 50vh; */
     color: rgb(219, 219, 219);
 }
 
 .projects-section {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     color: rgb(219, 219, 219);
     background-color: rgb(37, 37, 37);
 }

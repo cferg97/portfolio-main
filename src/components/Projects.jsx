@@ -20,7 +20,10 @@ const Projects = () => {
                   />
                   <figcaption className="mt-2">
                     <h4>Google Docs Clone</h4>
-                    <a target="_blank" href="https://github.com/cferg97/google-docs-clone-backend">
+                    <a
+                      target="_blank"
+                      href="https://github.com/cferg97/google-docs-clone-backend"
+                    >
                       <Badge bg="info">
                         <h5 className="my-auto">Code</h5>
                       </Badge>
@@ -34,6 +37,8 @@ const Projects = () => {
                       <br />
                       multiple users to collaborate on the same document in real
                       time.
+                      <br />
+                      Document editing is handled by the Quill package.
                     </p>
                   </figcaption>
                 </Figure>
@@ -46,17 +51,97 @@ const Projects = () => {
                   />
                   <figcaption className="mt-2">
                     <h4>LinkedIn Clone</h4>
-                    <a target="_blank" href="https://github.com/annoinspace/LinkedIn-Fe-Template">
+                    <a
+                      target="_blank"
+                      href="https://github.com/annoinspace/LinkedIn-Fe-Template"
+                    >
                       <Badge bg="info">
                         <h5 className="my-auto">Code</h5>
                       </Badge>
                     </a>
-                    <hr/>
-                    <p className="custom-desc">Built with React, Redux, MongoDB and ExpressJS.
-                        <br/>
-                        This was a collaborative effort as part of a group project.
-                        Users are able to sign up, log in, edit their profile details,
-                        create posts and create comments on those posts. 
+                    <a
+                      target="_blank"
+                      href="https://linked-in-fe-template.vercel.app/home"
+                    >
+                      <Badge bg="primary">
+                        <h5 className="my-auto">Deployment</h5>
+                      </Badge>
+                    </a>
+                    <hr />
+                    <p className="custom-desc">
+                      Built with React, Redux, MongoDB and ExpressJS.
+                      <br />
+                      This was a collaborative effort as part of a group
+                      project. Users are able to sign up, log in, edit their
+                      profile details, create posts and create comments on those
+                      posts.
+                    </p>
+                  </figcaption>
+                </Figure>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <Figure>
+                  <Image
+                    fluid
+                    src="https://res.cloudinary.com/cfcloudstorage/image/upload/v1675286136/project%20screenshots/Spotify_ul3t0n.png"
+                  />
+                  <figcaption className="mt-2">
+                    <h4>Spotify Clone</h4>
+                    <a
+                      target="_blank"
+                      href="https://github.com/cferg97/redux-spotify-proj"
+                    >
+                      <Badge bg="info">
+                        <h5 className="my-auto">Code</h5>
+                      </Badge>
+                    </a>
+                    <hr />
+                    <p className="custom-desc">
+                      Built with React and Redux.
+                      <br />
+                      Fetches data via API and storing it in state via Redux.
+                      <br />
+                      Users can 'like' songs to add to a playlist, search for
+                      artists, and click on songs to add them to the 'now playing'<br />
+                      section of the music player. Can also play music.
+                    </p>
+                  </figcaption>
+                </Figure>
+              </Col>
+              <Col>
+                <Figure>
+                  <Image
+                    fluid
+                    src="https://res.cloudinary.com/cfcloudstorage/image/upload/v1675286136/project%20screenshots/Netflix_dadgrg.png"
+                  />
+                  <figcaption className="mt-2">
+                    <h4>Netflix Clone</h4>
+                    <a
+                      target="_blank"
+                      href="https://github.com/cferg97/netflix-react-solo-project"
+                    >
+                      <Badge bg="info">
+                        <h5 className="my-auto">Code</h5>
+                      </Badge>
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://vercel.com/cferg97/netflix-react-solo-project"
+                    >
+                      <Badge bg="primary">
+                        <h5 className="my-auto">Deployment</h5>
+                      </Badge>
+                    </a>
+                    <hr />
+                    <p className="custom-desc">
+                      Built with React, Redux, MongoDB and ExpressJS.
+                      <br />
+                      Fetches data via a custom API. Users can search for media and <br/>
+                      if the media is not found within the API, it fetches and adds the data from <br/>
+                      the OMDB API.
+                      Users can also add reviews.
                     </p>
                   </figcaption>
                 </Figure>

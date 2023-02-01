@@ -13,6 +13,9 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <footer className="text-center mt-2 mb-2" style={{width: '100vw', bottom: 0 }}>
+        Made by Catriona Ferguson | {new Date().getFullYear()}
+      </footer>
     </>
   );
 }
