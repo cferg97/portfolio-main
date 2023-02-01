@@ -120,6 +120,31 @@ const Skills = () => {
             />
           </OverlayTrigger>
         </Row>
+        <Row className="mt-4 mb-4">
+          <h5>Currently learning...</h5>
+        </Row>
+        <Row className="justify-content-center mb-4 ">
+          <OverlayTrigger
+            key="typescript"
+            placement="top"
+            overlay={<Tooltip id={"ts"}>TypeScript</Tooltip>}
+          >
+            <Image
+              className="skill-icon"
+              src="https://res.cloudinary.com/cfcloudstorage/image/upload/v1675283818/icons/TypeScript_xcxbb0.svg"
+            />
+          </OverlayTrigger>
+          <OverlayTrigger
+            key="postgres"
+            placement="top"
+            overlay={<Tooltip id={"postres"}>PostgreSQL</Tooltip>}
+          >
+            <Image
+              className="skill-icon"
+              src="https://res.cloudinary.com/cfcloudstorage/image/upload/v1675283818/icons/PostgreSQL-Dark_pd6ltq.svg"
+            />
+          </OverlayTrigger>
+        </Row>
       </Container>
     </Container>
   );

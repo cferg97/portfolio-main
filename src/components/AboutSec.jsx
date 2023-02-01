@@ -45,7 +45,9 @@ const About = () => {
                 </p>
 
                 <p>
-                  In my free time I dabble in digital art and graphic design. I have been on the organising committee of several conventions within the UK, providing artwork and assisting with tasks during the event. 
+                  In my free time I dabble in digital art and graphic design. I have been on the organising committee of several conventions within the UK, providing artwork and assisting with tasks during the event.
+                  <br/>
+                  I love to help people!
                 </p>
               </Col>
             </Row>

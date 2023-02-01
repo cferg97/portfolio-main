@@ -75,6 +75,7 @@ a {
     width: 100vw;
     height: 50vh;
     color: rgb(219, 219, 219);
+    
 }
 
 
@@ -88,7 +89,7 @@ a {
 .custom-link {
     color: transparent;
     background-color: red;
-    background-image: linear-gradient(to right, #950484, #4f68b3);
+    background-image: linear-gradient(to right, #b12ba1, #4f68b3);
     background-size: 100%;
     background-clip: text;
     stroke: 1px solid white;
@@ -123,14 +124,14 @@ a {
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 530px){
-    .custom-nav{
+@media only screen and (max-width: 530px) {
+    .custom-nav {
         font-size: 1rem !important;
     }
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 430px) {
     .custom-nav{
-        display: none; 
+        display: none;
     }
 }
