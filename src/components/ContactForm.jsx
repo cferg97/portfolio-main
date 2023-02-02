@@ -49,6 +49,11 @@ const ContactForm = () => {
                 <Button className="mt-2" type="submit" variant="info">
                   Submit Form
                 </Button>
+                <Link to="/">
+                  <Button className="mt-2" variant="primary">
+                    Back to Main
+                  </Button>
+                </Link>
               </form>
             </Container>
           </Container>

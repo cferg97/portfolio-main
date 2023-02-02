@@ -13,12 +13,6 @@ function App() {
           <Route path="/contact" element={<ContactForm />} />
         </Routes>
       </Router>
-      <footer
-        className="text-center mt-2 mb-2"
-        style={{ width: "100vw", position: "absolute", bottom: 0 }}
-      >
-        Made by Catriona Ferguson | {new Date().getFullYear()}
-      </footer>
     </>
   );
 }
