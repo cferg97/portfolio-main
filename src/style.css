@@ -93,6 +93,11 @@ a {
     background-color: rgb(37, 37, 37);
 }
 
+.contact-section{
+    width: 100vw;
+    height: 100vh;
+}
+
 .custom-link {
     color: transparent;
     font-size: 1.3rem;

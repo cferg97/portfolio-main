@@ -43,7 +43,7 @@ const Projects = () => {
                   </figcaption>
                 </Figure>
               </Col>
-              <Col>
+              <Col xs={12} md={6}>
                 <Figure>
                   <Image
                     fluid
@@ -81,7 +81,7 @@ const Projects = () => {
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col xs={12} md={6}>
                 <Figure>
                   <Image
                     fluid
@@ -110,7 +110,7 @@ const Projects = () => {
                   </figcaption>
                 </Figure>
               </Col>
-              <Col>
+              <Col xs={12} md={6}>
                 <Figure>
                   <Image
                     fluid

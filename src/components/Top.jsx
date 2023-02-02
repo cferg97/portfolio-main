@@ -5,6 +5,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { MdAlternateEmail } from "react-icons/md";
 import { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Top = () => {
   const [mousePos, setMousePos] = useState({ x: null, y: null });
@@ -62,9 +63,9 @@ const Top = () => {
             >
               <BsLinkedin className="linked-icon" />
             </a>
-            <a target="_blank" href="mailto:main@catrionaferguson.co.uk">
+            <Link to="/contact">
               <MdAlternateEmail className="email-icon" />
-            </a>
+            </Link>
           </Container>
         </Row>
       </Container>

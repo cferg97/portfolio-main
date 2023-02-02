@@ -123,7 +123,7 @@ const Skills = () => {
         <Row className="mt-4 mb-4">
           <h5>Currently learning...</h5>
         </Row>
-        <Row className="justify-content-center mb-4 ">
+        <Row className="justify-content-center">
           <OverlayTrigger
             key="typescript"
             placement="top"

@@ -1,19 +1,22 @@
 import { Container } from "react-bootstrap";
-import Top from "./components/Top";
-import MyNav from "./components/MyNav";
-import About from "./components/AboutSec";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+
+import ContactForm from "./components/ContactForm";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
-      <MyNav />
-      <Top />
-      <About />
-      <Skills />
-      <Projects />
-      <footer className="text-center mt-2 mb-2" style={{width: '100vw', bottom: 0 }}>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route path="/contact" element={<ContactForm />} />
+        </Routes>
+      </Router>
+      <footer
+        className="text-center mt-2 mb-2"
+        style={{ width: "100vw", position: "absolute", bottom: 0 }}
+      >
         Made by Catriona Ferguson | {new Date().getFullYear()}
       </footer>
     </>
