@@ -32,7 +32,7 @@ const Projects = () => {
                     <p className="custom-desc">
                       Made with React, MongoDB & socket.io
                       <br />
-                      Stores documents within MongoDB and utilities socket.io to
+                      Stores documents within MongoDB and utilises socket.io to
                       allow
                       <br />
                       multiple users to collaborate on the same document in real
@@ -145,6 +145,11 @@ const Projects = () => {
                     </p>
                   </figcaption>
                 </Figure>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+              <a className="more-projs-link" target="_blank" href="http://github.com/cferg97"><p>More projects can be found on my GitHub Account</p></a>
               </Col>
             </Row>
           </Container>

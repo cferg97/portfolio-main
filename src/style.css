@@ -21,7 +21,7 @@ a {
 .custom-nav {
     background: linear-gradient(to bottom, rgba(207, 207, 207, 0.185), rgba(255, 255, 255, 0));
     backdrop-filter: blur(5px);
-    box-shadow: 0 0 10px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .top-custom {
@@ -94,7 +94,13 @@ a {
     background-color: rgb(37, 37, 37);
 }
 
-.contact-section{
+.experience-section {
+    width: 100vw;
+    color: rgb(219, 219, 219);
+    background-color: rgb(29, 29, 29);
+}
+
+.contact-section {
     width: 100vw;
     height: 100vh;
 }
@@ -153,4 +159,14 @@ a {
     .custom-nav {
         display: none;
     }
+}
+
+.more-projs-link {
+    color: #0072b1;
+    transition: all 0.4s ease-in-out;
+}
+
+.more-projs-link:hover {
+    color: #b12ba1;
+    font-size: 1.1rem;
 }

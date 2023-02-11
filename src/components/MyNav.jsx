@@ -19,7 +19,7 @@ const MyNav = () => {
           <Nav.Link disabled>|</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link disabled>|</Nav.Link>
-          <Nav.Link href="#link">Experience</Nav.Link>
+          <Nav.Link href="#experience">Experience</Nav.Link>
         </Nav>
         {/* <BiCodeAlt
           style={{ fontSize: "2rem", marginLeft: "1rem", color: "#aaaaaa" }}
