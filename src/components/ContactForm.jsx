@@ -12,7 +12,7 @@ const ContactForm = () => {
             <Container fluid>
               <form
                 target="_blank"
-                action="https://formsubmit.co/main@catrionaferguson.co.uk"
+                action="https://formsubmit.co/c.ferguson1997@gmail.com"
                 method="POST"
               >
                 <FormGroup>
